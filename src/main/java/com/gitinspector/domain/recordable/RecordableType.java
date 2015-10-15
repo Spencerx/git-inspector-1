@@ -1,7 +1,7 @@
-package com.gitinspector.domain;
+package com.gitinspector.domain.recordable;
 
 /**
- * A enum to represent the various types of entities that we can record.
+ * A enum to represent the various types of entities that can be recorded in a git inspector report.
  */
 public enum RecordableType {
     STATISTIC("statistic"), VIOLATION("violation");

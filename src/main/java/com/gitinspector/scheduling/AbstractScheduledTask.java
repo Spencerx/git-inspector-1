@@ -4,7 +4,7 @@ import com.gitinspector.TargetRepositories;
 import com.gitinspector.domain.GitUser;
 import com.gitinspector.domain.ReportResult;
 import com.gitinspector.domain.recordable.ReportingRecordable;
-import com.gitinspector.domain.recordable.StringStatistic;
+import com.gitinspector.domain.recordable.statistics.StringStatistic;
 import com.gitinspector.ownership.RepoOwnership;
 import com.gitinspector.recording.TaskMessageRecorder;
 import com.gitinspector.stats.GitStatisticsTracker;

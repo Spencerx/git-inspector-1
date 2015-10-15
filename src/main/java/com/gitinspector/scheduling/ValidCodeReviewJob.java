@@ -2,9 +2,9 @@ package com.gitinspector.scheduling;
 
 import com.gitinspector.TargetRepositories;
 import com.gitinspector.domain.ReportResult;
-import com.gitinspector.domain.recordable.BadCommit;
-import com.gitinspector.domain.recordable.StringStatistic;
-import com.gitinspector.domain.recordable.Violation;
+import com.gitinspector.domain.recordable.violations.BadCommit;
+import com.gitinspector.domain.recordable.statistics.StringStatistic;
+import com.gitinspector.domain.recordable.violations.Violation;
 import com.gitinspector.ownership.RepoOwnership;
 import com.gitinspector.recording.TaskMessageRecorder;
 import com.gitinspector.scheduling.codereviewstrategy.MatchingCommitShaStrategy;
